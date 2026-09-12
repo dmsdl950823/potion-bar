@@ -1,12 +1,13 @@
 # Potion TODO
 
-> 기준 문서: `docs/AGENT.md`, `docs/database/1-base-prompt.md`
+> 기준 문서: `AGENT.md`, `docs/database/1-base-prompt.md`
 > 우선순위: **P0** MVP 필수 · **P1** 출시 전 권장 · **P2** 출시 후 확장
 
 분야별 할 일은 아래 문서에서 관리한다.
 
-- [기획 TODO](todo/PLANNING.md) — 제품 범위, 정책, 콘텐츠, 출시 및 성장
-- [Database TODO](todo/DATABASE.md) — ERD, DDL, 데이터 수집·정제, 마이그레이션
+- [기획 TODO](todo/01-PLANNING.md) — 제품 범위, 사용자, 콘텐츠 및 정책
+- [마케팅·수익화 TODO](todo/02-GROWTH.md) — 유입, 광고, 제휴 및 수익화
+- [Database TODO](todo/03-DATABASE.md) — ERD, DDL, 데이터 수집·정제, 마이그레이션
 - [Backend TODO](todo/BE.md) — 서버 구조, 검색·추천 API, 보안 및 운영
 - [Frontend TODO](todo/FE.md) — 화면, 사용자 경험, 접근성 및 E2E
 
