@@ -1,22 +1,30 @@
-# Frontend TODO
+# Potion Frontend TODO
 
-[← 전체 TODO](../TODO.md)
+[← 전체 TODO](../TODO.md) · [← UI 설계](../DESIGN.md)
+
+> 결정: **Next.js·React·TypeScript·Tailwind CSS 위에 Base UI와 Motion을 최소한으로 사용한다.**
 
 ## 기반 구성
 
-- [ ] **P0** Next.js + React + Tailwind CSS + Lucide Icons 구성
+- [ ] **P0** Next.js + React + TypeScript + Tailwind CSS 구성
+  - TypeScript는 `strict`로 사용한다.
+  - Base UI는 Dialog·Popover·Select 등 접근성 기반 컴포넌트에만 사용한다.
+  - Motion은 화면 전환과 선택 피드백에만 사용하며 DESIGN.md의 150~200ms 규칙을 따른다.
 - [ ] **P0** 모바일 퍼스트 디자인 토큰과 공통 레이아웃 구성
+- [ ] **P0** Pretendard 웹폰트와 시스템 폴백 적용
 - [ ] **P0** API client, 타입, 환경별 base URL 구성
+  - API 주소와 엔드포인트 경로는 `src/api/api-url.ts`에서만 관리한다.
 - [ ] **P1** lint, format, type-check, test와 CI 구성
 
 ## 화면 구현
 
-- [ ] **P0** 메인·검색 페이지 구현
-  - 보유 재료 멀티 선택, 초기화, 검색
-  - 인기 또는 입문 레시피 진입점
+- [ ] **P0** 연령 안내와 홈 구현
+  - `집에 있는 술로 찾기` CTA, 상황 칩, 간단 컬렉션
+- [ ] **P0** 보유 술·부재료 선택 화면 구현
+  - 큰 분류 → 세부 종류 체크 칩, 선택 초기화, `N개 레시피 보기`
 - [ ] **P0** 검색 결과 페이지 구현
   - 제조 가능 여부, 난이도, 추가 필요 재료
-  - 도수, 주종, 분위기 필터
+  - 당도, 도수, 주종, 분위기 필터
 - [ ] **P0** 레시피 상세 페이지 구현
   - 재료 비율·도량형, 잔, 가니쉬, 난이도
   - 단계별 제조 가이드

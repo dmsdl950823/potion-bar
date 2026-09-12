@@ -36,6 +36,6 @@ MVP는 보유 술·부재료 기반 탐색, 제조 가능 여부, 맛·도수·�
 - 데이터 모델·수집 기준: [todo/03-DATABASE.md](todo/03-DATABASE.md)
 - 전체 작업 순서: [TODO.md](TODO.md)
 - 마케팅·수익화: [todo/02-GROWTH.md](todo/02-GROWTH.md)
-- 백엔드·프론트엔드 할 일: [todo/BE.md](todo/BE.md), [todo/FE.md](todo/FE.md)
+- 백엔드·프론트엔드 할 일: [todo/BE.md](04-BACKEND.md), [todo/FE.md](05-FRONTEND.md)
 
 `docs/AGENT.md`는 이전 문서이며 현재 작업 기준으로 사용하지 않는다. 제품 또는 데이터 결정을 바꾸면 관련 TODO 문서도 함께 갱신한다.

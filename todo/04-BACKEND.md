@@ -1,14 +1,19 @@
-# Backend TODO
+# Potion Backend TODO
 
-[← 전체 TODO](../TODO.md)
+[← 전체 TODO](../TODO.md) · [← 제품 기획](01-PLANNING.md) · [← 데이터베이스](03-DATABASE.md)
+
+> 결정: **TypeScript 기반 Node.js/Express API 서버를 프론트엔드와 분리한다.**
 
 ## 기반 구성
 
-- [ ] **P0** Next.js API Routes 또는 Node.js/Express 중 서버 구조 확정
+- [x] **P0** Node.js/Express 분리 API 서버 확정
+- [ ] **P0** TypeScript `strict` 설정과 프론트엔드 공통 코드 스타일 적용
 - [ ] **P0** 프로젝트·디렉터리 구조와 환경별 DB 연결 구성
-- [ ] **P0** `.env.example` 작성 및 API 키·DB 비밀정보 관리
+- [ ] **P0** `.env.local`과 `.env.example` 작성
+  - 로컬에서는 `.env.local`로 Supabase Local·외부 API 값을 관리하고 Git에 올리지 않는다.
+  - Cloud 이전 뒤에는 배포 환경의 비밀 변수로 같은 키를 분리 관리한다.
 - [ ] **P0** 로컬 실행·migration·seed 명령 문서화
-- [ ] **P1** lint, format, type-check, test와 CI 구성
+- [ ] **P1** 프론트엔드와 동일한 lint·format·type-check·CI 규칙 적용
 
 ## API 구현
 
@@ -27,7 +32,7 @@
 ## 품질·보안·운영
 
 - [ ] **P0** API 단위·통합 테스트 작성
-- [ ] **P0** API 키 노출, 입력값 처리, 인증 경계 점검
+- [ ] **P0** API 키 노출, 입력값 처리, CORS와 인증 경계 점검
 - [ ] **P1** 구조화 로그와 오류 추적 구성
 - [ ] **P1** 로그의 개인정보·비밀정보 노출 점검
 - [ ] **P1** 성능 목표와 부하 테스트 기준 수립

@@ -47,8 +47,8 @@ Potion은 외부 API와 공식 데이터 다운로드를 우선 사용합니다.
 | [제품 기획](todo/01-PLANNING.md)  | 사용자, MVP 범위, 콘텐츠 기준, 성공 지표       |
 | [마케팅·수익화](todo/02-GROWTH.md)  | 유입, 광고 원칙, 제휴와 수익화 방향            |
 | [데이터베이스](todo/03-DATABASE.md) | 스키마, ETL, 데이터 출처, Supabase 이전 계획 |
-| [Backend TODO](todo/BE.md)    | 검색·추천 API와 운영 계획                 |
-| [Frontend TODO](todo/FE.md)   | 핵심 화면과 사용자 경험 계획                 |
+| [Backend TODO](04-BACKEND.md)    | 검색·추천 API와 운영 계획                 |
+| [Frontend TODO](05-FRONTEND.md)   | 핵심 화면과 사용자 경험 계획                 |
 
 ## 현재 상태
 
